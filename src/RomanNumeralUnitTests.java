@@ -14,6 +14,7 @@ public class RomanNumeralUnitTests {
 		assertEquals("IV", number.toRoman(4));
 		assertEquals("X", number.toRoman(10));
 		assertEquals("LI", number.toRoman(51));
+		assertEquals("XCIV", number.toRoman(94));
 		
 	}
 	
